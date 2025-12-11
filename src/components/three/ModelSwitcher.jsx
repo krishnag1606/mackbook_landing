@@ -5,7 +5,7 @@ import gsap from "gsap"
 import { useGSAP } from "@gsap/react";
 
 const ANIMATION_DURATION = 1;
-const OFFSET_DISTANCE = 5;
+const OFFSET_DISTANCE = 10;
 
 const fadeMeshes = (group, opacity) => {
     if(!group) return;
